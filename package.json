@@ -1,0 +1,28 @@
+{
+  "name": "unlock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "unlock": "ts-node ./src/index.ts"
+  },
+  "author": "gentlemonke@xinlabs.io",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.1.2",
+    "@metaplex-foundation/mpl-toolbox": "^0.9.1",
+    "@metaplex-foundation/umi": "^0.8.10",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.8.10",
+    "bs58": "^5.0.0",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "figlet": "^1.7.0",
+    "helius-sdk": "^1.2.1",
+    "lodash": "^4.17.21",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.10.5"
+  }
+}
