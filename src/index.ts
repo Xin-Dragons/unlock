@@ -24,7 +24,6 @@ dotenv.config({ path: __dirname + "/../.env" })
 const program = new Command()
 
 console.log(figlet.textSync("Unlocker"))
-console.log(process.env)
 
 program
   .version("1.0.0")
